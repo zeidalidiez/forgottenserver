@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <monsters>
 	<!-- Amazons -->
 	<monster name="Amazon" file="Amazons/amazon.xml" />
@@ -574,6 +574,7 @@
 	<monster name="Minotaur Guard" file="Minotaurs/minotaur_guard.xml" />
 	<monster name="Minotaur Mage" file="Minotaurs/minotaur_mage.xml" />
 	<monster name="Minotaur" file="Minotaurs/minotaur.xml" />
+	<monster name="Moohtant" file="Minotaurs/moohtant.xml" />
 
 	<!-- Misc -->
 	<!-- Misc Mammals -->

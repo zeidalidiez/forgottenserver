@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <items>
+<item id="26382" article="a" name="demon sword">
+        <attribute key="weight" value="2900" />
+        <attribute key="defense" value="30" />
+        <attribute key="attack" value="36" />
+        <attribute key="weaponType" value="sword" />
+	<attribute key="slotType" value="two-handed" />
+    		</item>
 	<item id="100" name="void" />
 	<item id="101" name="earth" />
 	<item id="103" name="dirt" />
@@ -3136,10 +3143,10 @@
 		<attribute key="weaponType" value="sword" />
 		<attribute key="extradef" value="1" />
 	</item>
-	<item id="2377" article="a" name="two handed sword">
+	<item id="2377" article="a" name="claymore">
 		<attribute key="weight" value="7000" />
 		<attribute key="defense" value="25" />
-		<attribute key="attack" value="30" />
+		<attribute key="attack" value="60" />
 		<attribute key="weaponType" value="sword" />
 		<attribute key="slotType" value="two-handed" />
 	</item>
@@ -3243,15 +3250,14 @@
 		<attribute key="weight" value="2300" />
 		<attribute key="defense" value="20" />
 		<attribute key="attack" value="24" />
-		<attribute key="elementFire" value="11" />
+		<attribute key="elementIce" value="15" />
 		<attribute key="weaponType" value="sword" />
 		<attribute key="extradef" value="1" />
 	</item>
-	<item id="2393" article="a" name="giant sword">
-		<attribute key="description" value="This sword has been forged by ancient giants." />
+	<item id="2393" article="a" name="colossal sword">
 		<attribute key="weight" value="18000" />
 		<attribute key="defense" value="22" />
-		<attribute key="attack" value="46" />
+		<attribute key="attack" value="65" />
 		<attribute key="weaponType" value="sword" />
 		<attribute key="slotType" value="two-handed" />
 	</item>
@@ -3277,10 +3283,10 @@
 		<attribute key="elementIce" value="18" />
 		<attribute key="charges" value="1" />
 	</item>
-	<item id="2397" article="a" name="longsword">
+	<item id="2397" article="an" name="elven foil">
 		<attribute key="weight" value="4200" />
 		<attribute key="defense" value="14" />
-		<attribute key="attack" value="17" />
+		<attribute key="attack" value="52" />
 		<attribute key="weaponType" value="sword" />
 	</item>
 	<item id="2398" article="a" name="mace">
@@ -3381,17 +3387,16 @@
 		<attribute key="elementEarth" value="2" />
 		<attribute key="weaponType" value="sword" />
 	</item>
-	<item id="2412" article="a" name="katana">
+	<item id="2412" article="a" name="dai-katana">
 		<attribute key="weight" value="3100" />
 		<attribute key="defense" value="12" />
-		<attribute key="attack" value="16" />
+		<attribute key="attack" value="36" />
 		<attribute key="weaponType" value="sword" />
-		<attribute key="extradef" value="1" />
 	</item>
-	<item id="2413" article="a" name="broadsword">
+	<item id="2413" article="a" name="zweihander">
 		<attribute key="weight" value="5250" />
 		<attribute key="defense" value="23" />
-		<attribute key="attack" value="26" />
+		<attribute key="attack" value="45" />
 		<attribute key="weaponType" value="sword" />
 		<attribute key="slotType" value="two-handed" />
 	</item>
@@ -3430,10 +3435,10 @@
 		<attribute key="attack" value="13" />
 		<attribute key="weaponType" value="axe" />
 	</item>
-	<item id="2419" article="a" name="scimitar">
+	<item id="2419" article="a" name="cutlass">
 		<attribute key="weight" value="2900" />
 		<attribute key="defense" value="13" />
-		<attribute key="attack" value="19" />
+		<attribute key="attack" value="48" />
 		<attribute key="weaponType" value="sword" />
 		<attribute key="extradef" value="1" />
 	</item>
@@ -3567,10 +3572,10 @@
 		<attribute key="attack" value="14" />
 		<attribute key="weaponType" value="club" />
 	</item>
-	<item id="2438" article="an" name="epee">
+	<item id="2438" article="an" name="estoc">
 		<attribute key="weight" value="1450" />
 		<attribute key="defense" value="23" />
-		<attribute key="attack" value="37" />
+		<attribute key="attack" value="43" />
 		<attribute key="weaponType" value="sword" />
 	</item>
 	<item id="2439" article="a" name="daramian mace">
@@ -3620,12 +3625,12 @@
 		<attribute key="extradef" value="1" />
 		<attribute key="weaponType" value="club" />
 	</item>
-	<item id="2446" article="a" name="pharaoh sword">
+	<item id="2446" article="a" name="sword of the desert sands">
 		<attribute key="weight" value="5200" />
 		<attribute key="defense" value="23" />
-		<attribute key="attack" value="41" />
+		<attribute key="attack" value="53" />
 		<attribute key="weaponType" value="sword" />
-		<attribute key="extradef" value="2" />
+		<attribute key="slotType" value="two-handed" />
 	</item>
 	<item id="2447" article="a" name="twin axe">
 		<attribute key="weight" value="6400" />
@@ -12487,19 +12492,18 @@
 		<attribute key="attack" value="30" />
 		<attribute key="weaponType" value="club" />
 	</item>
-	<item id="7382" article="a" name="demonrage sword">
+	<item id="7382" article="a" name="hellboy sword">
 		<attribute key="weight" value="15000" />
 		<attribute key="defense" value="22" />
-		<attribute key="attack" value="47" />
+		<attribute key="attack" value="48" />
 		<attribute key="weaponType" value="sword" />
 		<attribute key="slotType" value="two-handed" />
 	</item>
-	<item id="7383" article="a" name="relic sword">
+	<item id="7383" article="an" name="ancient sword">
 		<attribute key="weight" value="4800" />
 		<attribute key="defense" value="24" />
-		<attribute key="attack" value="42" />
+		<attribute key="attack" value="39" />
 		<attribute key="weaponType" value="sword" />
-		<attribute key="extradef" value="1" />
 	</item>
 	<item id="7384" article="a" name="mystic blade">
 		<attribute key="description" value="This sword is only granted to a scrapper of the Svargrond arena." />
@@ -12602,19 +12606,18 @@
 		<attribute key="weaponType" value="sword" />
 		<attribute key="slotType" value="two-handed" />
 	</item>
-	<item id="7403" article="a" name="berserker">
+	<item id="7403" article="a" name="basutasodo">
 		<attribute key="weight" value="13000" />
 		<attribute key="defense" value="21" />
-		<attribute key="attack" value="48" />
+		<attribute key="attack" value="70" />
 		<attribute key="weaponType" value="sword" />
 		<attribute key="slotType" value="two-handed" />
 	</item>
-	<item id="7404" article="an" name="assassin dagger">
+	<item id="7404" article="an" name="assassins dagger">
 		<attribute key="weight" value="1700" />
 		<attribute key="defense" value="12" />
-		<attribute key="attack" value="40" />
+		<attribute key="attack" value="44" />
 		<attribute key="weaponType" value="sword" />
-		<attribute key="extradef" value="-2" />
 	</item>
 	<item id="7405" article="a" name="havoc blade">
 		<attribute key="weight" value="7200" />
@@ -12631,19 +12634,18 @@
 		<attribute key="weaponType" value="sword" />
 		<attribute key="slotType" value="two-handed" />
 	</item>
-	<item id="7407" article="a" name="haunted blade">
+	<item id="7407" article="a" name="spectral broadsword">
 		<attribute key="weight" value="3100" />
 		<attribute key="defense" value="12" />
-		<attribute key="attack" value="40" />
+		<attribute key="attack" value="75" />
 		<attribute key="weaponType" value="sword" />
 		<attribute key="slotType" value="two-handed" />
 	</item>
-	<item id="7408" article="a" name="wyvern fang">
+	<item id="7408" article="a" name="dragon's tooth blade">
 		<attribute key="weight" value="2000" />
 		<attribute key="defense" value="19" />
-		<attribute key="attack" value="32" />
+		<attribute key="attack" value="60" />
 		<attribute key="weaponType" value="sword" />
-		<attribute key="extradef" value="1" />
 	</item>
 	<item id="7409" article="a" name="northern star">
 		<attribute key="weight" value="4200" />
@@ -12895,12 +12897,11 @@
 	<item fromid="7447" toid="7448" article="a" name="small ice statue">
 		<attribute key="weight" value="1000" />
 	</item>
-	<item id="7449" article="a" name="crystal sword">
+	<item id="7449" article="a" name="knights brand">
 		<attribute key="weight" value="6900" />
 		<attribute key="defense" value="26" />
-		<attribute key="attack" value="35" />
+		<attribute key="attack" value="56" />
 		<attribute key="weaponType" value="sword" />
-		<attribute key="slotType" value="two-handed" />
 	</item>
 	<item id="7450" article="a" name="hammer of prophecy">
 		<attribute key="weight" value="11000" />
@@ -15437,10 +15438,10 @@
 		<attribute key="attack" value="21" />
 		<attribute key="weaponType" value="axe" />
 	</item>
-	<item id="8602" article="a" name="jagged sword">
+	<item id="8602" article="a" name="sawblade">
 		<attribute key="weight" value="2900" />
 		<attribute key="defense" value="14" />
-		<attribute key="attack" value="21" />
+		<attribute key="attack" value="65" />
 		<attribute key="weaponType" value="sword" />
 		<attribute key="extradef" value="1" />
 	</item>
@@ -16196,10 +16197,10 @@
 		<attribute key="weaponType" value="sword" />
 		<attribute key="extradef" value="3" />
 	</item>
-	<item id="8932" name="the calamity">
+	<item id="8932" name="the leaf blade">
 		<attribute key="weight" value="6800" />
-		<attribute key="defense" value="35" />
-		<attribute key="attack" value="51" />
+		<attribute key="defense" value="22" />
+		<attribute key="attack" value="81" />
 		<attribute key="weaponType" value="sword" />
 		<attribute key="slotType" value="two-handed" />
 	</item>
@@ -20004,11 +20005,11 @@
 		<attribute key="slotType" value="two-handed" />
 	</item>
 	<item id="11309" article="a" name="twin hooks">
-		<attribute key="weight" value="5000" />
-		<attribute key="defense" value="22" />
-		<attribute key="attack" value="32" />
-		<attribute key="weaponType" value="axe" />
-		<attribute key="slotType" value="two-handed" />
+		<attribute key="weight" value="20000" />
+		<attribute key="attack" value="17" />
+		<attribute key="weaponType" value="distance" />
+		<attribute key="shootType" value="enchantedspear" />
+		<attribute key="range" value="2" />
 	</item>
 	<item id="11310" article="a" name="dead wailing widow">
 		<attribute key="containerSize" value="10" />
@@ -20843,8 +20844,10 @@
 		<attribute key="slotType" value="necklace" />
 		<attribute key="weight" value="840" />
 	</item>
-	<item id="12425" article="a" name="hunter's quiver" plural="hunter quivers">
-		<attribute key="weight" value="132" />
+	<item id="12425" article="a" name="hunters quiver">
+		<attribute key="weight" value="2800" />
+		<attribute key="containerSize" value="20" />
+		<attribute key="slotType" value="ammo" />
 	</item>
 	<item id="12426" article="a" name="jewelled belt">
 		<attribute key="weight" value="124" />

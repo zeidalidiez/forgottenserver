@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<monster name="Orc" nameDescription="an orc" race="blood" experience="25" speed="150" manacost="300">
+<monster name="Orc" nameDescription="an orc" race="blood" experience="25" speed="250" manacost="150">
 	<health now="70" max="70" />
-	<look type="5" corpse="5966" />
+	<look type="904" corpse="5966" />
 	<targetchange interval="4000" chance="0" />
 	<flags>
 		<flag summonable="1" />

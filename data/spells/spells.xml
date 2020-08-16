@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <spells>
+	<instant group="attack" spellid="111" name="Grenade" words="exero con" level="23" mana="25" premium="1" range="5" needtarget="1" cooldown="2000" groupcooldown="2000" blockwalls="1" needlearn="0" script="attack/grenade.lua">
+		<vocation name="Thief" />
+		<vocation name="Assassin" />
+	</instant>
+
 	<!-- Attack Spells -->
 	<instant group="attack" spellid="62" name="Annihilation" words="exori gran ico" level="110" mana="300" premium="1" range="1" needtarget="1" needweapon="1" cooldown="30000" groupcooldown="4000" needlearn="0" script="attack/annihilation.lua">
 		<vocation name="Knight" />

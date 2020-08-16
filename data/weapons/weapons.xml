@@ -96,101 +96,6 @@
 	<melee id="2413" unproperly="1">
 		<vocation name="Knight" />
 	</melee>
-	<melee id="7385" level="20" unproperly="1" />
-	<melee id="2377" level="20" unproperly="1">
-		<vocation name="Knight" />
-	</melee>
-	<melee id="7408" level="25" unproperly="1" />
-	<melee id="7449" level="25" unproperly="1">
-		<vocation name="Knight" />
-	</melee>
-	<melee id="2392" level="30" unproperly="1" />
-	<melee id="2407" level="30" unproperly="1" />
-	<melee id="2438" level="30" unproperly="1" />
-	<melee id="7407" level="30" unproperly="1">
-		<vocation name="Knight" />
-	</melee>
-	<melee id="7424" level="30" unproperly="1" />
-	<melee id="7406" level="35" unproperly="1">
-		<vocation name="Knight" />
-	</melee>
-	<melee id="2451" level="35" unproperly="1" />
-	<melee id="7404" level="40" unproperly="1" />
-	<melee id="7386" level="40" unproperly="1">
-		<vocation name="Knight" />
-	</melee>
-	<melee id="2446" level="45" unproperly="1" />
-	<melee id="7402" level="45" unproperly="1">
-		<vocation name="Knight" />
-	</melee>
-	<melee id="7383" level="50" unproperly="1" />
-	<melee id="7391" level="50" unproperly="1">
-		<vocation name="Knight" />
-	</melee>
-	<melee id="7416" level="55" unproperly="1" />
-	<melee id="2393" level="55" unproperly="1">
-		<vocation name="Knight" />
-	</melee>
-	<melee id="7384" level="60" unproperly="1" />
-	<melee id="7382" level="60" unproperly="1">
-		<vocation name="Knight" />
-	</melee>
-	<melee id="7417" level="65" unproperly="1" />
-	<melee id="7403" level="65" unproperly="1">
-		<vocation name="Knight" />
-	</melee>
-	<melee id="7418" level="70" unproperly="1" />
-	<melee id="7405" level="70" unproperly="1">
-		<vocation name="Knight" />
-	</melee>
-	<melee id="7390" level="75" unproperly="1" />
-	<melee id="6528" level="75" unproperly="1">
-		<vocation name="Knight" />
-	</melee>
-	<melee id="2400" level="80" unproperly="1" />
-	<melee id="8930" level="100" unproperly="1" />
-	<melee id="8931" level="120" unproperly="1" />
-	<melee id="8932" level="100" unproperly="1">
-		<vocation name="Knight" />
-	</melee>
-	<melee id="2408" level="120" unproperly="1">
-		<vocation name="Knight" />
-	</melee>
-	<melee id="2390" level="140" unproperly="1">
-		<vocation name="Knight" />
-	</melee>
-	<melee id="11306" level="50" unproperly="1">
-		<vocation name="Knight" />
-	</melee>
-	<melee id="11307" level="55" unproperly="1" />
-	<melee id="12649" level="82" unproperly="1" />
-	<melee id="12613" level="58" unproperly="1">
-		<vocation name="Knight" />
-	</melee>
-	<melee id="13871" level="40" unproperly="1">
-		<vocation name="Knight" />
-	</melee>
-	<melee id="18450" level="62" unproperly="1" />
-	<melee id="20092" level="15" unproperly="1" />
-	<melee id="22398" level="75" unproperly="1">
-		<vocation name="Knight" />
-	</melee>
-	<melee id="22399" level="120" unproperly="1">
-		<vocation name="Knight" />
-	</melee>
-	<melee id="22400" level="250" unproperly="1">
-		<vocation name="Knight" />
-	</melee>
-	<melee id="22401" level="75" unproperly="1">
-		<vocation name="Knight" />
-	</melee>
-	<melee id="22402" level="120" unproperly="1">
-		<vocation name="Knight" />
-	</melee>
-	<melee id="22403" level="250" unproperly="1">
-		<vocation name="Knight" />
-	</melee>
-	<melee id="25416" level="150" unproperly="1" />
 
 	<!-- Fire -->
 	<melee id="7744" action="removecharge" />
@@ -303,9 +208,6 @@
 		<vocation name="Knight" />
 	</melee>
 	<melee id="11305" level="60" unproperly="1" />
-	<melee id="11309" level="20" unproperly="1">
-		<vocation name="Knight" />
-	</melee>
 	<melee id="11323" level="25" unproperly="1" />
 	<melee id="15404" level="80" unproperly="1" />
 	<melee id="15451" level="40" unproperly="1" />
