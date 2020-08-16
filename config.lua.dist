@@ -42,6 +42,8 @@ deathLosePercent = -1
 -- NOTE: set housePriceEachSQM to -1 to disable the ingame buy house functionality
 housePriceEachSQM = 1000
 houseRentPeriod = "never"
+houseOwnedByAccount = false
+houseDoorShowPrice = true
 
 -- Item Usage
 timeBetweenActions = 200
@@ -83,6 +85,7 @@ showOnlineStatusInCharlist = false
 yellMinimumLevel = 2
 yellAlwaysAllowPremium = false
 forceMonsterTypesOnLoad = true
+cleanProtectionZones = false
 
 -- Server Save
 -- NOTE: serverSaveNotifyDuration in minutes

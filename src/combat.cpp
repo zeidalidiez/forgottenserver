@@ -714,11 +714,13 @@ void Combat::doCombat(Creature* caster, const Position& position) const
 						}
 					}
 
-					if (params.origin != ORIGIN_MELEE) {
+					if (!params.aggressive || (caster != creature && Combat::canDoCombat(caster, creature) == RETURNVALUE_NOERROR)) {
 						for (const auto& condition : params.conditionList) {
 							if (caster == creature || !creature->isImmune(condition->getType())) {
 								Condition* conditionCopy = condition->clone();
-								conditionCopy->setParam(CONDITION_PARAM_OWNER, caster->getID());
+								if (caster) {
+									conditionCopy->setParam(CONDITION_PARAM_OWNER, caster->getID());
+								}
 
 								//TODO: infight condition until all aggressive conditions has ended
 								creature->addCombatCondition(conditionCopy);
@@ -730,6 +732,14 @@ void Combat::doCombat(Creature* caster, const Position& position) const
 						creature->removeCondition(CONDITION_PARALYZE);
 					} else {
 						creature->removeCombatCondition(params.dispelType);
+					}
+
+					if (params.targetCallback) {
+						params.targetCallback->onTargetCombat(caster, creature);
+					}
+
+					if (params.targetCasterOrTopMost) {
+						break;
 					}
 				}
 			}
@@ -773,11 +783,13 @@ void Combat::doTargetCombat(Creature* caster, Creature* target, CombatDamage& da
 	}
 
 	if (success) {
-		if (params.origin != ORIGIN_MELEE && damage.primary.value != 0 && damage.secondary.value != 0) {
+		if (damage.blockType == BLOCK_NONE || damage.blockType == BLOCK_ARMOR) {
 			for (const auto& condition : params.conditionList) {
 				if (caster == target || !target->isImmune(condition->getType())) {
 					Condition* conditionCopy = condition->clone();
-					conditionCopy->setParam(CONDITION_PARAM_OWNER, caster->getID());
+					if (caster) {
+						conditionCopy->setParam(CONDITION_PARAM_OWNER, caster->getID());
+					}
 
 					//TODO: infight condition until all aggressive conditions has ended
 					target->addCombatCondition(conditionCopy);
@@ -899,11 +911,13 @@ void Combat::doAreaCombat(Creature* caster, const Position& position, const Area
 					}
 
 					if (success) {
-						if (params.origin != ORIGIN_MELEE && damageCopy.primary.value != 0 && damageCopy.secondary.value != 0) {
+						if (damage.blockType == BLOCK_NONE || damage.blockType == BLOCK_ARMOR) {
 							for (const auto& condition : params.conditionList) {
 								if (caster == creature || !creature->isImmune(condition->getType())) {
 									Condition* conditionCopy = condition->clone();
-									conditionCopy->setParam(CONDITION_PARAM_OWNER, caster->getID());
+									if (caster) {
+										conditionCopy->setParam(CONDITION_PARAM_OWNER, caster->getID());
+									}
 
 									//TODO: infight condition until all aggressive conditions has ended
 									creature->addCombatCondition(conditionCopy);
